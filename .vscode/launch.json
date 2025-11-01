@@ -1,0 +1,44 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: 当前文件 (venv)",
+      "type": "python",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "cwd": "${fileDirname}",
+      "justMyCode": true,
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}"
+      }
+    },
+    {
+      "name": "Python: visualize_data.py (venv)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/visualize_data.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/scripts",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: advanced_analysis.py (venv)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/advanced_analysis.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: export_report.py (venv)",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/export_report.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+    }
+  ]
+}

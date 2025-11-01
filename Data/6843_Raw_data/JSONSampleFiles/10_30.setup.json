@@ -1,0 +1,26 @@
+{
+  "createdByVersion": "2.1.0",
+  "createdOn": "2025-10-30T13:55:45.1892188+08:00",
+  "configUsed": "E:\\Radar_Experriment\\Data\\6843_Raw_data\\JSONSampleFiles\\10_30.mmwave.json",
+  "captureHardware": "DCA1000",
+  "DCA1000Config": {
+    "dataLoggingMode": "raw",
+    "dataTransferMode": "LVDSCapture",
+    "dataCaptureMode": "ethernetStream",
+    "packetSequenceEnable": 1,
+    "packetDelay_us": 25
+  },
+  "mmWaveDevice": "iwr6843",
+  "operatingFreq": 60,
+  "mmWaveDeviceConfig": {
+    "RS232COMPort": "COM20",
+    "RS232BaudRate": "115200",
+    "radarSSFirmware": "D:\\ti\\mmwave_studio_02_01_01_00\\rf_eval_firmware\\radarss\\xwr68xx_radarss.bin",
+    "masterSSFirmware": "D:\\ti\\mmwave_studio_02_01_01_00\\rf_eval_firmware\\masterss\\xwr68xx_masterss.bin"
+  },
+  "capturedFiles": {
+    "numFilesCollected": 0,
+    "fileBasePath": "",
+    "files": []
+  }
+}

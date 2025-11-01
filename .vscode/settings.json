@@ -1,0 +1,6 @@
+{
+  // 使用本地 .venv 解释器运行，不激活环境也能运行
+  "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+  // 不在终端中自动激活环境（保持“非激活模式”）
+  "python.terminal.activateEnvironment": false
+}

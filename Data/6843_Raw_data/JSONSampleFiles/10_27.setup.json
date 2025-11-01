@@ -1,0 +1,34 @@
+{
+  "createdByVersion": "2.1.0",
+  "createdOn": "2025-10-27T22:22:38.6465332+08:00",
+  "configUsed": "E:\\Set\\10_27.mmwave.json",
+  "captureHardware": "DCA1000",
+  "DCA1000Config": {
+    "dataLoggingMode": "raw",
+    "dataTransferMode": "LVDSCapture",
+    "dataCaptureMode": "ethernetStream",
+    "packetSequenceEnable": 1,
+    "packetDelay_us": 25
+  },
+  "mmWaveDevice": "iwr6843",
+  "operatingFreq": 60,
+  "mmWaveDeviceConfig": {
+    "RS232COMPort": "COM20",
+    "RS232BaudRate": "115200",
+    "radarSSFirmware": "D:\\ti\\mmwave_studio_02_01_01_00\\rf_eval_firmware\\radarss\\xwr68xx_radarss.bin",
+    "masterSSFirmware": "D:\\ti\\mmwave_studio_02_01_01_00\\rf_eval_firmware\\masterss\\xwr68xx_masterss.bin"
+  },
+  "capturedFiles": {
+    "numFilesCollected": 1,
+    "fileBasePath": "E:\\Raw_Data\\10_27",
+    "files": [
+      {
+        "rawFileName": "adc_data_fall_1_Raw_0.bin",
+        "processedFileName": "adc_data_fall_1.bin",
+        "processedFileSummary": {
+          "numZeroFillBytes": 0
+        }
+      }
+    ]
+  }
+}
