@@ -100,6 +100,8 @@ def parse_config(json_path: str) -> dict:
     fs_Hz = fs_ksps * 1e3
     slope_Hz_per_s = slope_MHz_per_us * 1e12
 
+    frame_periodicity_ms = float(frame["framePeriodicity_msec"]) # ms
+
     return {
         "num_rx": num_rx,
         "num_tx": num_tx,
@@ -113,6 +115,7 @@ def parse_config(json_path: str) -> dict:
         "start_freq_GHz": start_freq_GHz,
         "fs_Hz": fs_Hz,
         "slope_Hz_per_s": slope_Hz_per_s,
+        "frame_periodicity_ms": frame_periodicity_ms,
         "tx_id_per_chirp_pos": tx_id_per_chirp_pos,
         "iqSwapSel": iqSwapSel,
         "chInterleave": chInterleave,

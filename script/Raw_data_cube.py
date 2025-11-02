@@ -184,9 +184,9 @@ def cube_to_virtual(cube, params):
     return virtual_cube
 
 def main():
-    json_path = r"E:\Radar_Experriment\Data\1843_Raw_data\JSONSampleFiles\10_31.mmwave.json"   
-    bin_path = r"E:\Radar_Experriment\Data\1843_Raw_data\10_31\adc_data_fall_2_Raw_0.bin"       
-    out_dir = r"E:\Radar_Experriment\Outdata_npy"
+    json_path = r"E:\Radar_Experiment\Data\1843_Raw_data\JSONSampleFiles\10_31.mmwave.json"   
+    bin_path = r"E:\Radar_Experiment\Data\1843_Raw_data\10_31\adc_data_fall_2_Raw_0.bin"       
+    out_dir = r"E:\Radar_Experiment\Outdata_npy"
 
     params = parse_config(json_path)
     calc_radar_resolution(params, json_path, verbose=True)
